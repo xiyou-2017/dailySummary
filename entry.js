@@ -5,7 +5,7 @@ import  'bootstrap/dist/css/bootstrap.min.css'
 class HelloMessage extends Component {
 
     render() {
-        return (<div>sdWorld</div>);
+        return (<div>World</div>);
     }
 }
 ReactDOM.render(
