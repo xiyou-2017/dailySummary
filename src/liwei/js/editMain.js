@@ -6,11 +6,15 @@ import ReactDOM from "react-dom";
 import  'bootstrap/dist/css/bootstrap.min.css';
 import SubmitBar from './Submit';
 import Edit from './Edit';
+import Artilelist from './Articlelist';
+
+const Items =[1,2,3];
+
 
 class Main extends React.Component {
     constructor(props) {
         super(props);
-
+        this.state={value:''};
     }
 
     render() {
@@ -18,6 +22,7 @@ class Main extends React.Component {
             <div>
                 <SubmitBar/>
                 <Edit/>
+                <Artilelist Items={Items}/>
             </div>
         )
     }
@@ -26,4 +31,3 @@ ReactDOM.render(
     <Main />,
     document.getElementById('app')
 );
-
