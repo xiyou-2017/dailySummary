@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import ReactDOM from "react-dom";
-import './public/style.css'
-import  'bootstrap/dist/css/bootstrap.min.css'
+import './public/style.css';
+import  'bootstrap/dist/css/bootstrap.min.css';
 class HelloMessage extends Component {
 
     render() {
@@ -12,3 +12,4 @@ ReactDOM.render(
     <HelloMessage />,
     document.getElementById('app')
 )
+

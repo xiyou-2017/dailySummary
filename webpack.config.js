@@ -1,5 +1,5 @@
 module.exports = {
-    entry: "./entry.js", // 要打包的入口文件
+    entry: "./src/liwei/js/editMain.js", // 要打包的入口文件
     output: {               //打包后的文件
         path: __dirname + '/dist',   //表示使用绝对路径
         filename: "bundle.js" //输出文件名
@@ -12,6 +12,7 @@ module.exports = {
             {test: /\.ttf(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=application/octet-stream"},
             {test: /\.svg(\?v=\d+\.\d+\.\d+)?$/, loader: "url-loader?limit=10000&mimetype=image/svg+xml"},
             {
+
                 test: /\.jsx?$/,
                 loader: 'babel-loader',
                 // exclude: /node_modules/, //不进行转换的文件，可以提高打包速度
