@@ -8,21 +8,27 @@ import SubmitBar from './Submit';
 import Edit from './Edit';
 import Artilelist from './Articlelist';
 
-const Items =[1,2,3];
+const Items = [1, 2, 3];
 
 
 class Main extends React.Component {
     constructor(props) {
         super(props);
-        this.state={value:''};
+        this.state = {value: ''};
     }
 
     render() {
         return (
             <div>
                 <SubmitBar/>
-                <Edit/>
-                <Artilelist Items={Items}/>
+                <div className="main">
+                    <Artilelist Items={Items}/>
+
+                    <Edit/>
+
+                </div>
+
+
             </div>
         )
     }

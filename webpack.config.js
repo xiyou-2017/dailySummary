@@ -15,12 +15,12 @@ module.exports = {
 
                 test: /\.jsx?$/,
                 loader: 'babel-loader',
-                // exclude: /node_modules/, //不进行转换的文件，可以提高打包速度
+                exclude: /node_modules/, //不进行转换的文件，可以提高打包速度
                 query: {
                     cacheDirectory: true,
                     presets: ['react', 'es2015']
                 }
-            }
+            },
         ]
     }
 };
