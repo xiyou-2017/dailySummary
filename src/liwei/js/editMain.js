@@ -4,7 +4,7 @@
 import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import  'bootstrap/dist/css/bootstrap.min.css';
-import SubmitBar from './Submit';
+import Head from './Head';
 import Edit from './Edit';
 import Artilelist from './Articlelist';
 
@@ -20,10 +20,9 @@ class Main extends React.Component {
     render() {
         return (
             <div>
-                <SubmitBar/>
                 <div className="main">
+                    <Head/>
                     <Artilelist Items={Items}/>
-
                     <Edit/>
 
                 </div>

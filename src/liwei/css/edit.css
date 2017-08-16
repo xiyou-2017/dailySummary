@@ -48,3 +48,12 @@
     /*border: solid 1px #CCCCCC;*/
     margin-left: 20px;
 }
+
+.head {
+    width: 100%;
+    height: 100px;
+}
+
+p {
+    font-size: 2em;
+}
