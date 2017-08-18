@@ -13,7 +13,7 @@ marked.setOptions({
     smartLists: true,
     smartypants: false
 });
-console.log(marked('I am using ###markdown.'));
+
 
 var app = express();
 

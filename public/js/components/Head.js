@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import SubmitBar from './Submit';
-import '../css/edit.css';
+import '../../css/edit.css';
 class Head extends React.Component {
     render() {
         return (

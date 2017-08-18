@@ -4,9 +4,9 @@
 import React, {Component} from 'react';
 import ReactDOM from "react-dom";
 import  'bootstrap/dist/css/bootstrap.min.css';
-import Head from './Head';
-import Edit from './Edit';
-import Artilelist from './Articlelist';
+import Head from './components/Head';
+import Edit from './components/Edit';
+import Artilelist from './components/Articlelist';
 
 const Items = [1, 2, 3];
 

@@ -2,7 +2,7 @@
  * Created by weiqiujuan on 17-8-15.
  */
 import React from 'react';
-import '../css/edit.css';
+import '../../css/edit.css';
 
 function Itemlist(props) {
 

@@ -3,7 +3,7 @@
  */
 import React from 'react';
 import marked from 'marked';
-import '../css/edit.css';
+import '../../css/edit.css';
 class Edit extends React.Component {
     constructor() {
         super();
