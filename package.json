@@ -29,9 +29,11 @@
     "webpack-hot-middleware": "^2.18.2"
   },
   "dependencies": {
+    "express": "^4.15.4",
     "marked": "^0.3.6",
     "mysql": "^2.14.1",
     "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
+    "redux": "^3.7.2",
+    "superagent": "^3.5.2"
   }
 }

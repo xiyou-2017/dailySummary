@@ -8,7 +8,7 @@ class Head extends React.Component {
     render() {
         return (
             <div className="head">
-                <img src="../public/hoo.jpg" width={60} height={50}/>
+                <img src="./public/images/hoo.jpg" width={60} height={50}/>
                 用户名
                 <SubmitBar/>
             </div>

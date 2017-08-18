@@ -17,6 +17,6 @@ connection.connect((err)=> {
         console.log('err' + err.stack);
         return;
     }
-    console.log('connected');
+    console.log('connected success!!!');
 });
 module.exports = connection;
